@@ -1,0 +1,3 @@
+2014-01-10  Enrico Schumann  <es@enricoschumann.net>
+
+	* R/password.R (password): initial version
