@@ -1,0 +1,30 @@
+#+TITLE: password
+#+AUTHOR: Enrico Schumann
+
+Create random passwords of letters, numbers and punctuation.
+
+* Installation
+
+To install the package from a running R session, type:
+#+BEGIN_SRC R :eval never
+## from CRAN
+install.packages('password')   
+
+## ... or from enricoschumann.net
+install.packages('password', type = 'source',
+                 repos = c('http://enricoschumann.net/R', 
+                           getOption('repos')))
+#+END_SRC
+
+
+
+* Usage
+
+#+BEGIN_SRC R :export both :results output
+require('password')
+password(12)
+#+END_SRC
+
+#+RESULTS:
+: [1] "xqD&kNs!wtgB"
+
