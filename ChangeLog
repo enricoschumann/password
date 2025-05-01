@@ -1,3 +1,8 @@
+2025-05-01  Enrico Schumann  <es@enricoschumann.net>
+
+        * DESCRIPTION (Version): 1.0-1
+        (Maintainer): add 'Authors@R' field
+
 2014-01-10  Enrico Schumann  <es@enricoschumann.net>
 
-	* R/password.R (password): initial version
+        * R/password.R (password): initial version
